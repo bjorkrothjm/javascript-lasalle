@@ -16,3 +16,7 @@ Repo for the JavaScript module Front end course
 
 - live server: for updating html docs live
 - open in default browser: for updating html docs with reload button (f5)
+
+## Tricks 
+
+- ! + enter to create basic HTML template
