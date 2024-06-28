@@ -7,7 +7,6 @@ Repo for the JavaScript module Front end course
 - execusion
 - 
 
-
 ## Recursos
 
 - w3school: https://www.w3schools.com/
@@ -28,4 +27,8 @@ Repo for the JavaScript module Front end course
 
 ## Tricks 
 
-- ! + enter to create basic HTML template
+- ! + enter: to create basic HTML template
+- mark text while holding down option: to mark text in different parts of a document 
+- option + arrow up/down:  move a line of code up/down in the documnet
+- wrap with abbreviation: ADD
+- toggle word wrap (wrap all text in the html doc): f1 (fn f1 on mac) "toogle word wrap" 
