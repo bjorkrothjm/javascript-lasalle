@@ -1,1 +1,1 @@
-console.log("Hello world 1 (archivo separado)");
+console.log("Hello world 2 (archivo separado)");
