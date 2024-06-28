@@ -14,5 +14,5 @@ Repo for the JavaScript module Front end course
 
 ## Extensions 
 
-- live server
-- open in default browser
+- live server: for updating html docs live
+- open in default browser: for updating html docs with reload button (f5)
