@@ -9,3 +9,10 @@ Repo for the JavaScript module Front end course
 
 
 ## Recursos
+
+
+
+## Extensions 
+
+- live server
+- open in default browser
