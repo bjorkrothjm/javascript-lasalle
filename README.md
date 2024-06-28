@@ -10,6 +10,15 @@ Repo for the JavaScript module Front end course
 
 ## Recursos
 
+- w3school: https://www.w3schools.com/
+
+- instagram:
+- cheatsheets: davidm_ai
+
+- games:
+- https://cssgridgarden.com/
+- https://flexboxfroggy.com/
+- https://flukeout.github.io/
 
 
 ## Extensions 
