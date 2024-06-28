@@ -5,19 +5,21 @@ Repo for the JavaScript module Front end course
 
 - hello world
 - execusion
-- 
+- console.log
+- variables 
+- arrays, objects
 
 ## Recursos
 
 - w3school: https://www.w3schools.com/
 
 - instagram:
-- cheatsheets: davidm_ai
+-   cheatsheets: davidm_ai
 
 - games:
-- https://cssgridgarden.com/
-- https://flexboxfroggy.com/
-- https://flukeout.github.io/
+    - https://cssgridgarden.com/
+    - https://flexboxfroggy.com/
+    - https://flukeout.github.io/
 
 
 ## Extensions 
