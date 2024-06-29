@@ -9,6 +9,14 @@ Repo for the JavaScript module Front end course
 - variables 
 - arrays, objects
 
+## Recomendaciones y buenas prácticas
+
+- To create repos:
+    - Create a repo in Github
+    - Copy the URL of the repo (in Github)
+    - Clone the repo from VS code interface (Source control tab)
+
+
 ## Recursos
 
 - [w3school](https://www.w3schools.com/)
@@ -21,7 +29,6 @@ Repo for the JavaScript module Front end course
     - [cssgridgarden](https://cssgridgarden.com/)
     - [flexfroggy](https://flexboxfroggy.com/)
     - [flukeout](https://flukeout.github.io/)
-
 
 ## Extensions 
 
