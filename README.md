@@ -1,6 +1,16 @@
 # JavaScript La Salle
 Repo for the JavaScript module Front end course
 
+## Important: .DS_Store files
+- an invisible file on the macOS operating system that gets automatically created anytime you look into a folder with ‘Finder
+- stores custom attributes/metadata of its containing folder and the names of other files around it
+- exposing this information could potentially allow hackers to act maliciously and let them see private files.
+
+How to avoid this?
+- Place .DS_Store in your .gitignore file. That way, any .DS_Store file will be ignored and not be pushed with the rest of your code.
+
+https://buildthis.com/ds_store-files-and-why-you-should-know-about-them/
+
 ## Contendios
 
 - hello world
@@ -34,6 +44,7 @@ Repo for the JavaScript module Front end course
 
 - live server: for updating html docs live
 - open in default browser: for updating html docs with reload button (f5)
+- todo tree: for saving a todo-list from comment including "TODO"
 
 ## Tricks 
 
