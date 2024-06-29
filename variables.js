@@ -10,3 +10,23 @@ console.log(userTitle);
 console.log(userName, userSurname, userTitle);
 console.log(userName + userSurname + userTitle);
 console.log(userName +  " " + userSurname + " " + userTitle);
+
+
+console.log(`Qué tal estás ${userName} ${userSurname}?`);
+
+userAge = 33; // number 
+userHasHair = true // Boolean
+userName = "Marco"; // string
+
+
+{
+    let userNickname = "Joshi" // assinging within local scope
+}
+console.log(userNickname); // Will give error because only defined within local scope
+
+const userNickname =  "Joshi"// assinging with 
+console.log(userNickname); // Will NOT give error
+
+// TODO: arrays, objects
+
+
