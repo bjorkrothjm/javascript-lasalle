@@ -163,6 +163,13 @@ console.log("Todo 3: ", ageSum);
 
 // TODO: Show a phrase that summarizes the properties of each object in the console
 
-console.log(`The properties of the objects are  `);
+console.log(`The properties of the objects are 
+    ${propArrayFromSet[0]}
+    ${propArrayFromSet[1]} ,
+    ${propArrayFromSet[2]} ,
+    ${propArrayFromSet[3]} ,
+    ${propArrayFromSet[4]},
+    ${propArrayFromSet[5]},
+    ${propArrayFromSet[6]} `);
 
 // TODO: Search for a way to show all the object in a table in the console 
