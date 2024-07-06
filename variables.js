@@ -51,8 +51,36 @@ b = c;
 console.log(a, b); // should output "2, 1"
 
 
-// TODO arrays, objects
+// TRANSFORMATION OF VARIBLE TYPES -------------------------------------------------------------
+
+const PI = "3.1415"
+radius = 4.5
+
+console.log("The area of the circle is: ", PI*radius**2)
+
+circle = {
+    area: PI*radius**2
+}
+console.log(circle);
+
+radiusString = radius.toString()
+console.log(radiusString, typeof(radiusString));
+
+console.log(typeof(circle));
+console.log(typeof(circle.area));
+console.log(parseFloat(circle.area));
 
 
+data = {
+    data0: PI,
+    data1: parseFloat(PI),
+    data2: parseInt(PI),
+    data3: radius,
+    data4: radius.toString()
+}
 
-
+console.log(data.data0, typeof(data.data0));
+console.log(data.data1, typeof(data.data1));
+console.log(data.data2, typeof(data.data2));
+console.log(data.data3, typeof(data.data3));
+console.log(data.data4, typeof(data.data4));

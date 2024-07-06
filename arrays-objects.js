@@ -4,7 +4,7 @@ let data = ["Dog", 23, true]
 
 console.log(data)
 
-// control + command + space to use emojis
+// control + command + spacebar to use emojis
 let dog = "🐶"
 let cat = "🐱"
 let racoon = "🦝"
@@ -173,3 +173,63 @@ console.log(`The properties of the objects are
     ${propArrayFromSet[6]} `);
 
 // TODO: Search for a way to show all the object in a table in the console 
+
+console.log("Exercises Objects and Arrays");
+
+pokemon = [
+    {
+        num: 1,
+        nombre: "Bulbasaur",
+        nivel: 8,
+        tipo: "🌱",
+        ataques: ["Latigo cepa", "Placaje"]
+    },
+    {
+        num: 4,
+        nombre: "Squirtle",
+        nivel: 6,
+        tipo: "💧",
+        ataques: ["Burbuja", "Placaje"]
+    },
+    {
+        num: 7,
+        nombre: "Charmander",
+        nivel: 10,
+        tipo: "🔥",
+        ataques: ["Ascuas", "Grunido"]
+    },
+    {
+        num: 45,
+        nombre: "Pikachu",
+        nivel: 25,
+        tipo: "⚡️",
+        ataques: ["Impactrueno", "Rayo", "Placaje"]
+    },
+    {
+        num: 76,
+        nombre: "Eevee",
+        nivel: 16,
+        tipo: "⭕️", 
+        ataques: ["Mordisco", "Placaje"]
+    }
+
+]
+
+tipos = [pokemon[0].tipo, pokemon[1].tipo, pokemon[2].tipo, pokemon[3].tipo, pokemon[4].tipo]
+console.log(tipos); // To print the Array as it is ['item1', 'item2', etc.]
+console.log(tipos.toString()); // To print entire Array as a string "item1, item2, etc."
+
+// (Note: modify multiple places at once: option + selct)
+nivelTotal = [pokemon[0].nivel + pokemon[1].nivel + pokemon[2].nivel + pokemon[3].nivel + pokemon[4].nivel]
+console.log("Nivel total: " + nivelTotal);
+
+console.log(`El pokemon ${pokemon[0].nombre} (tipo ${pokemon[0].tipo}) está al nivel ${pokemon[0].nivel} y tiene ${pokemon[0].ataques.length} ataques`);
+console.log(`El pokemon ${pokemon[1].nombre} (tipo ${pokemon[1].tipo}) está al nivel ${pokemon[1].nivel} y tiene ${pokemon[1].ataques.length} ataques`);
+console.log(`El pokemon ${pokemon[2].nombre} (tipo ${pokemon[2].tipo}) está al nivel ${pokemon[2].nivel} y tiene ${pokemon[2].ataques.length} ataques`);
+console.log(`El pokemon ${pokemon[3].nombre} (tipo ${pokemon[3].tipo}) está al nivel ${pokemon[3].nivel} y tiene ${pokemon[3].ataques.length} ataques`);
+console.log(`El pokemon ${pokemon[4].nombre} (tipo ${pokemon[4].tipo}) está al nivel ${pokemon[4].nivel} y tiene ${pokemon[4].ataques.length} ataques`);
+
+console.table(pokemon)
+
+
+

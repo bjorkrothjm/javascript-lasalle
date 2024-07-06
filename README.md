@@ -13,34 +13,63 @@ https://buildthis.com/ds_store-files-and-why-you-should-know-about-them/
 
 ## Contendios
 
+#### 28 de juny
 - hello world
 - execusion
 - console.log
-- variables 
+- variables -> data types
+
+#### 29 de juny
+- Github and Git repository
 - arrays, objects
+- good practices
+
+#### 6 de julio
+- correct arrays and objects exercise
+- `toString()`, `parseFloat()`, `parseInt()`, 
+- state of javascript
+- newsletter exercise
+
 
 ## Recomendaciones y buenas prácticas
 
+- [Apuntes HTML+CSS+JS](http://localhost:52330/apuntes.html)
+- Una única finestra del VSC (amb la **carpeta general** que conté els repos)
+- Trabajar siempre en el repo
+
+
+## Github
 - To create repos:
     - Create a repo in Github
     - Copy the URL of the repo (in Github)
     - Clone the repo from VS code interface (Source control tab)
-
+- [Repo de prova](https://github.com/StratocasterO/prueba_salle) creat per mostrar el mètode
+- Per publicar un repo/web a les Github pages heu d'anar als *Settings* del repo -> *Pages* -> *Build and deployment* i sel·leccionar la branca que voleu publicar (les Github pages només renderitzen el `README.md` o el `index.html`)
 
 ## Recursos
 
-- [w3school](https://www.w3schools.com/)
+- [Repositorio del curso](https://github.com/StratocasterO/javascript_lasalle)
 - [MDN Web docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Curso de JavaScript de w3schools](https://www.w3schools.com/js/)
+- [Newsletter Cassidy Williams](https://cassidoo.co/newsletter/)
+
 
 - instagram:
--   cheatsheets: davidm_ai
+    - [Instagram David Mraz](https://www.instagram.com/davidm_ai/)
+
 
 - games:
     - [cssgridgarden](https://cssgridgarden.com/)
     - [flexfroggy](https://flexboxfroggy.com/)
     - [flukeout](https://flukeout.github.io/)
 
-## Extensions 
+## Extensions VSC
+
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [Open HTML in browser](https://marketplace.visualstudio.com/items?itemName=peakchen90.open-html-in-browser)
+- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+- [To-do tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
 - live server: for updating html docs live
 - open in default browser: for updating html docs with reload button (f5)
