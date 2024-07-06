@@ -27,8 +27,12 @@ https://buildthis.com/ds_store-files-and-why-you-should-know-about-them/
 #### 6 de julio
 - correct arrays and objects exercise
 - `toString()`, `parseFloat()`, `parseInt()`, 
-- state of javascript
-- newsletter exercise
+- String Methods and Array methods
+- String Search
+- Loops
+- Condicionals
+- Functions
+- Other: state of javascript, newsletter exercise
 
 
 ## Recomendaciones y buenas prácticas
