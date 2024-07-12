@@ -13,44 +13,62 @@ console.log("");
 console.log("STRING METHDOS");
 
 console.log("");
+
 /// trim() - removes white space from both ends of a string
 console.log("trim:");
 console.log(text.trim());
 
 console.log("");
+
 /// trimStart() - removes white space from the left of a string
 console.log("trimStart:");
 console.log(text.trimStart());
 
 console.log("");
+
 /// trimEnd() - removes white space from the right of a string
 console.log("trimEnd:");
 console.log(text.trimEnd());
 
 console.log("");
+
 /// padStart() - pads a string from the START of a string with 2nd arg until it reaches the lenght of the 1st arg
+// if the 1st argument is less than or equal to str.length, then str is returned AS IT IS.
+// 1st arg: targetLenght - The length of the resulting string once the current str has been padded. If the value is less than or equal to str.length, then str is returned as-is.
+// 2nd arg: padString - The string to pad the current str with. If padString is too long to stay within the targetLength, it will be truncated from the end. The default value is the unicode "space" character (U+0020).
+
 // - padText.padStart(4,"0"); => pads a string with "0" (from start/left) until it reaches the length 4:
 console.log("padStart:");
 padText = "5"
 console.log(padText.padStart(4,"x")); // xxx5
 
-console.log(text); 
-textPaddedS = text.padStart(4, "0"); - // NOT WORKING 
+console.log(text);
+console.log(text.length);
+
+textPaddedS = text.padStart(text.length+4, "0"); // pads a string with "0" from start/left with 4 0s
 console.log(textPaddedS); 
 
 console.log("");
+
 /// padEnd() - pads a string from the END of a string with 2nd arg until it reaches the lenght of the 1st arg
-console.log("padEnd:");
 // padText.padEnd(10,"0") - pads a string with "0" from end/right until it reaches  the lenght of 10
-console.log(padText.padEnd(10,"0"));  
+console.log("padEnd:");
+console.log(padText.padEnd(10,"0"));  // 5000000000
+
+textPaddedS = text.padEnd(text.length+4, "0"); // pads a string with "0" from end/right with 4 0s
+console.log(textPaddedS); 
 
 console.log("");
+
 /// replace()
 // -  The replace() method does not change the string it is called on.
 // -  The replace() method returns a new string.
 // -  The replace() method replaces only the first match
 console.log("replace:");
-console.log(text.replace("Aquesta", "THIS"));
+
+console.log("replace: Aquesta => THIS");
+console.log("replace: text.replace('Aquesta', 'THIS')");
+console.log( text.replace("Aquesta", "THIS") );
 
 console.log("replace: l'Omar => el profe");
 console.log(text.replace("Omar", "el profe"));
@@ -67,24 +85,28 @@ console.log("");
 // If the separator is omitted, the returned array will contain the whole string in index [0].
 // If the separator is "", the returned array will be an array of single characters:
 console.log("split:");
+
+console.log("split: text.split(); ");
 console.log(text.split(" "));
 
 console.log("trim + split:");
 console.log(text.trim().split(" "));
 
 console.log("");
-/// toUpperCase()
+/// toUpperCase() - converts all chars in a string to upper case
 console.log("toUpperCase:");
 console.log(text.toUpperCase());
 
 console.log("");
-/// toLowerCase()
+/// toLowerCase() - converts all chars in a string to lower case
 console.log("toLowerCase:");
 console.log(text.toLowerCase());
 
 console.log("");
 /// slice() - extracts a part of a string and returns the extracted part in a new string.
 // - 2 parameters: start position, and end position (end not included).
+// - IF ONLY 1 PARAMETER => extracts from position of argument to the end of the string
+
 console.log("slice: first word => text.trim().slice(0, 7)" );
 console.log(text.trim().slice(0, 7));
 
@@ -99,7 +121,8 @@ console.log("slice: word una => text.trim().slice(-7, )" );
 console.log(text.trim().slice(11, 14));
 
 console.log("");
-/// concat() 
+
+/// concat() - concatenates 2 strings
 console.log("text.concat:- OK?");
 console.log(text.concat("- OK?"));
 
@@ -161,13 +184,20 @@ console.log("");
 
 console.log("TASKS");
 
-// TODO: Task: 
-console.log("Task DNI")
+// TODO: Task: - EXPLAIN HOW IT WORKS
+console.log("Task DNI: hide the first 4 and last 2 chars of DNI")
 dni = "12345678A"
 console.log("DNI completo: " + dni);
 console.log("DNI ofuscado: " + dni.slice(4).padStart(9, "X").slice(0,-2).padEnd(9, "X"));
-console.log("DNI ofuscado:", dni.slice(4) );
 
+/// dni.slice(4) => extracts the chars from the 5th char (index 4) to the end
+console.log(dni.slice(4));
+// .padStart(dni.length, "X") => Make the str 9 chars long and pad the start/left of the string with X so that it reaches a lenght of 9 chars  
+console.log( dni.slice(4).padStart(dni.length, "X") );
+// .slice(0,-2) => extracts from index 0 to index 2 (not included) of the string
+console.log( dni.slice(4).padStart(9, "X").slice(0,-2) );
+
+console.log("DNI ofuscado: " + dni.slice(4).padStart(9, "X").slice(0,-2).padEnd(9, "X"));
 
 console.log("");
 // TODO: Task: censurar el nombre en el text de 
