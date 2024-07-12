@@ -106,10 +106,36 @@ console.log(pokemonArray);
 console.log("array.copyWithin(2, 0) => Array after:");
 console.log( pokemonArray.copyWithin(2, 0) );
 
-/// slice
+console.log("");
+// slice
+/// slices out a piece of an array to a NEW array 
+// - The slice() method creates a new array.
+// - The slice() method does not remove any elements from the source array.
+console.log("Slice");
+console.log("Array before:");
+console.log(pokemonArray);
+console.log(".slice(1");
 
-/// splice
+console.log(pokemonArray.slice(1));
 
+console.log("");
+// splice
+/// adds new items to an array.
+// Example: fruits.splice(2, 0, "Lemon", "Kiwi");
+// The first parameter (2) defines the position where NEW elements should be ADDED (spliced in).
+// The second parameter (0) defines HOW MANY elements should be REMOVED.
+// The rest of the parameters ("Lemon" , "Kiwi") define THE NEW ELEMENTS to be added.
+
+// The splice() method returns an array with the deleted items:
+console.log("Splice");
+console.log("Array before:");
+console.log(pokemonArray);
+console.log(".splice(1, 0, 'Squirtle' )");
+console.log(pokemonArray.splice(1, 0, "Squirtle")) ;
+
+console.log("");
+
+// https://www.w3schools.com/js/js_array_methods.asp
 
 /// unshift
 
