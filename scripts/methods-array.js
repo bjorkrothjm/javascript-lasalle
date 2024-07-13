@@ -1,7 +1,7 @@
 
 pokemonArray = ["Bulbasaur", "Squirtle","Charmander","Pikachu", "Eevee"]
 
-// TODO: test ARRAY methods: 
+// TODO: ARRAY methods: 
 console.log("ARRAY METHDOS");
 
 console.log(pokemonArray);
