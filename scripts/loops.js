@@ -90,3 +90,19 @@ alumnos.forEach(varName => {
   console.log("Hola " + varName);
 });
 
+// TODO: 1 write 
+
+
+// TODO: 2 write 
+
+
+// TODO: 3 write 
+
+
+// TODO: 4 write 
+
+
+// TODO: 5 write 
+
+
+// TODO: 6 write 
