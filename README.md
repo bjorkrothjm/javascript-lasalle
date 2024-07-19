@@ -27,13 +27,21 @@ https://buildthis.com/ds_store-files-and-why-you-should-know-about-them/
 #### 6 de julio
 - correct arrays and objects exercise
 - `toString()`, `parseFloat()`, `parseInt()`, 
-- String Methods and Array methods
+- String Methods
 - String Search
-- Loops
-- Condicionals
-- Functions
 - Other: state of javascript, newsletter exercise
 
+#### 12 de julio
+- Array methods
+- Functions
+
+#### 13 de julio
+- Arrow functions (anonymous + auto executive)
+- Conditionals
+
+#### 19 de julio
+- (corregir exercicis Condicionals + ternary operator) => Syntax: condition ? true : false
+- Loops (for, for in, for if, while)
 
 ## Recomendaciones y buenas prácticas
 
