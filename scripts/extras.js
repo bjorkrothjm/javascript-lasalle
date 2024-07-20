@@ -48,12 +48,12 @@ function randomizer(min, max) {
 // maxNumber = prompt("Enter an integer that the random number cannot be higher than: ")
 // randomizer(minNumber, maxNumber);
 
-console.log("-------------------------");
-console.log("DATES");
-
 // TODO : ?
 
 // Fechas
+console.log("-------------------------");
+console.log("DATES");
+console.log("-------------------------");
 
 let time = new Date()
 console.log(time);
@@ -72,3 +72,18 @@ console.log(time3.getTime());
 
 console.log(time.getHours());
 console.log(time.getDay());
+
+
+// Temporizadores
+console.log("-------------------------");
+console.log("TEMPORIZADORES");
+console.log("-------------------------");
+
+// Errors, try... catch
+console.log("-------------------------");
+console.log("Errors, try... catch");
+console.log("-------------------------");
+
+try {
+  //
+}
