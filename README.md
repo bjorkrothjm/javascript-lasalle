@@ -13,35 +13,46 @@ https://buildthis.com/ds_store-files-and-why-you-should-know-about-them/
 
 ## Contendios
 
-#### 28 de juny
+#### 1. 28 de juny
 - hello world
 - execusion
 - console.log
 - variables -> data types
 
-#### 29 de juny
+#### 2.  29 de juny
 - Github and Git repository
 - arrays, objects
 - good practices
 
-#### 6 de julio
+#### 3. 6 de julio
 - correct arrays and objects exercise
 - `toString()`, `parseFloat()`, `parseInt()`, 
 - String Methods
 - String Search
 - Other: state of javascript, newsletter exercise
 
-#### 12 de julio
+#### 4. 12 de julio
 - Array methods
 - Functions
 
-#### 13 de julio
+#### 5. 13 de julio
 - Arrow functions (anonymous + auto executive)
 - Conditionals
 
-#### 19 de julio
-- (corregir exercicis Condicionals + ternary operator) => Syntax: condition ? true : false
-- Loops (for, for in, for if, while)
+#### 6. 19 de julio
+- Ternary operator | Syntax: condition ? true : false
+- Loops (for, for...of for...in, while, foreach)
+
+#### 7. 20 de julio
+- Extras: Math, Date, temporitzadors, errors, classes
+
+#### 8. 26 de julio
+- Reading, Writing and modifying the DOM
+
+#### 9. 27 de julio
+- ??? 
+
+
 
 ## Recomendaciones y buenas prácticas
 
