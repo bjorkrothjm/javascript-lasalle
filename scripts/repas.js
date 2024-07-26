@@ -103,8 +103,15 @@ console.log("%cExercise 5: randomWords()",  "font-weight: bold" );
 
 function randomWords() {
   string = separateWords()
-  let words = string.split(" ");
+  //let words = string.split(" ");
+  let spaces = 0;
 
+  // Count spaces to find out how many words we have 
+  for (const char of string) {
+    if (char == " ") spaces++;
+  }
+
+  let wordNum = parseInt((spaces + 1)) * Math.random() // 
   return 
 }
 
