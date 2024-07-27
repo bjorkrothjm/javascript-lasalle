@@ -50,7 +50,7 @@ https://buildthis.com/ds_store-files-and-why-you-should-know-about-them/
 - Reading, Writing and modifying the DOM
 
 #### 9. 27 de julio
-- ??? 
+- DOM + event driven programing
 
 #### 9. For August break 
 - Finish repas exercises
