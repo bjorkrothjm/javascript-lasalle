@@ -57,7 +57,8 @@ https://buildthis.com/ds_store-files-and-why-you-should-know-about-them/
 - DOM exercises
 - Think about features to add to Landing (group)
 - Update the notes (apuntes.html)
--  
+- ADD
+- Newsletter exercises in apuntes.html
 
 ## Recomendaciones y buenas prácticas
 
@@ -77,19 +78,25 @@ https://buildthis.com/ds_store-files-and-why-you-should-know-about-them/
 ## Recursos
 
 - [Repositorio del curso](https://github.com/StratocasterO/javascript_lasalle)
+- Notion con [recursos de backend, JavaScript, testing, buenas prácticas, etc](https://laser-mahogany-1e9.notion.site/)
+- [Newsletter Cassidy Williams](https://cassidoo.co/newsletter/)
 - [MDN Web docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Curso de JavaScript de w3schools](https://www.w3schools.com/js/)
-- [Newsletter Cassidy Williams](https://cassidoo.co/newsletter/)
+- [State of JavaScript](https://2023.stateofjs.com/)
+- [Eloquent JavaScript](https://eloquent-javascript-es.vercel.app/)
 
 
-- instagram:
+
+- Instagram:
     - [Instagram David Mraz](https://www.instagram.com/davidm_ai/)
 
 
-- games:
+- Games:
     - [cssgridgarden](https://cssgridgarden.com/)
     - [flexfroggy](https://flexboxfroggy.com/)
     - [flukeout](https://flukeout.github.io/)
+    - [Coding game](https://www.codingame.com/) 
+    - [Code wars](https://www.codewars.com/)
 
 ## Extensions VSC
 
@@ -112,4 +119,17 @@ https://buildthis.com/ds_store-files-and-why-you-should-know-about-them/
 - toggle word wrap (wrap all text in the html doc): f1 (fn f1 on mac) "toogle word wrap" 
 
 ## Extras
-- ADD
+- Article sobre [rendiment dels diferents loops](https://garden.bradwoods.io/notes/javascript/performance/loops)
+- Article sobre [evolució de les classes a JavaScript](https://webreflection.co.uk/blog/2015/11/07/the-history-of-simulated-classes-in-javascript/)
+- Llenguatge de programació de visuals: [Processing](https://processing.org/)
+    - Canal de YouTube: [The Coding Train](https://www.youtube.com/thecodingtrain)
+    - [Llista de reproducció de p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+- [Pàgina de Google morse](https://experiments.withgoogle.com/collection/morse) 
+    - [Aplicació](https://morse-learn.acecentre.net/) per aprendre morse
+- Aplicació per escriure pseudo-codi: [PSeInt](https://pseint.sourceforge.net/)
+- Web dels premis [Awwwards](https://www.awwwards.com/) (per buscar exemples de webs innovadores)
+- [Alfabet radiofònic](https://ca.wikipedia.org/wiki/Alfabet_fon%C3%A8tic_de_l%27OTAN) (alpha, bravo, charlie, delta...)
+- Música per programar:
+    - [Lofi medieval](https://www.youtube.com/watch?v=_uMuuHk_KkQ&ab_channel=LofiGirl)
+    - [Lofi girl](https://www.youtube.com/watch?v=jfKfPfyJRdk) (hiphop)
+    - [Synthwave boy](https://www.youtube.com/watch?v=4xDzrJKXOOY)
