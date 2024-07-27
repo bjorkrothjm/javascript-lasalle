@@ -52,7 +52,12 @@ https://buildthis.com/ds_store-files-and-why-you-should-know-about-them/
 #### 9. 27 de julio
 - ??? 
 
-
+#### 9. For August break 
+- Finish repas exercises
+- DOM exercises
+- Think about features to add to Landing (group)
+- Update the notes (apuntes.html)
+-  
 
 ## Recomendaciones y buenas prácticas
 
@@ -105,3 +110,6 @@ https://buildthis.com/ds_store-files-and-why-you-should-know-about-them/
 - option + arrow up/down:  move a line of code up/down in the documnet
 - wrap with abbreviation: ADD
 - toggle word wrap (wrap all text in the html doc): f1 (fn f1 on mac) "toogle word wrap" 
+
+## Extras
+- ADD
