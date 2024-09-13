@@ -3,9 +3,9 @@
 console.log("Exercise 1 Multiplication tables");
 console.log("");
 
-for (let i = 0; i < 10; i++) {
+for (let i = 1; i <= 10; i++) {
   console.log(`Multiplication table of ${i}`);
-  for (let j =  0; j < 10; j++) {
+  for (let j =  1; j <= 10; j++) {
     let res = i * j;
     let line = `${i} x ${j} = ${res}`;
     console.log(line);
@@ -15,7 +15,7 @@ for (let i = 0; i < 10; i++) {
 
 // TODO: 2 recrea la funció parseFloat() de manera que agafi els números encara que hi hagi lletres abans i accepti com a separador decimal els símbols ",", "." i "'". P.e: "hola89'234" ha de tornar "89.234", "43'35adeu" ha de tornar "43.35", "amor45.9odi" ha de tornar "45.9"
 // TODO: 2 rewrite the parseFloat() function so that it takes numbers even if there are letters before them and accepts
-//  the symbols ",", "." as a decimal separator. and "'". 
+//  the symbols ",", "." and "'" as a decimal separator.
 // Eg: "hello89'234" should return "89.234", "43'35goodbye" should return "43.35", "love45.9hate" should return "45.9"
 
 console.log("Exercise 2.0 betterParse()");
