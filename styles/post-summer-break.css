@@ -1,0 +1,99 @@
+
+body {
+  margin: 0 10%;
+}
+
+
+.header-container {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width:  2px;
+  border-bottom-color: darkgrey;
+}
+
+.homepage-header {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo {
+  height:70px;
+  width: 70px;
+}
+
+
+.dropdown {
+}
+
+.dropdown-button-img {
+  height:70px;
+  width: 70px;
+}
+
+.dropdown-button-img {
+  height:50px;
+  width: 50px;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  /* min-width: 160px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 70px;
+  right: 0px;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.body-container {
+  display: flex;
+  
+
+}
+
+.feed {
+  flex: 1;
+  margin: 5px 10px;
+}
+
+.post-calendar {
+  min-width: 130px;
+  background-color: lightgray;
+
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.post-title {
+  flex: 1;
+}
+
+.post-author {
+  flex: 1;
+}
