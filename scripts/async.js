@@ -1,17 +1,18 @@
 // Only using set time out makes it impossible to control the order of execution
 ///--was used in examples below Math.random()
 
-setTimeout(() => {
-  console.log("Hola");
-}, 2000)
 
-setTimeout(() => {
-  console.log("Adios");
-}, 4000)
+// setTimeout(() => {
+//   console.log("Hola");
+// }, 2000)
 
-setTimeout(() => {
-  console.log("Que tal?");
-}, 3000)
+// setTimeout(() => {
+//   console.log("Adios");
+// }, 4000)
+
+// setTimeout(() => {
+//   console.log("Que tal?");
+// }, 3000)
 
 
 // How to make things happen when we expect them to do?
