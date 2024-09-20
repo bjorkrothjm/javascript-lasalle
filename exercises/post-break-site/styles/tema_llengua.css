@@ -1,0 +1,36 @@
+
+#lang a {
+  background-color: grey;
+  text-decoration: none;
+  margin: 10px 5px;
+  padding: 5px 15px;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#lang a:hover {
+  background-color: lightgrey
+}
+
+#lang {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+#theme {
+  background-color: rgb(215, 211, 211);
+  text-decoration: none;
+  margin: 10px 5px;
+  padding: 5px 15px;
+  border-radius: 3px;
+  width: 25px;
+  height: 25px;
+
+}
+
+#theme img {
+  width: 25px;
+  height: 25px;
+}
