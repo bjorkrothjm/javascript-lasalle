@@ -141,24 +141,34 @@ body {
 }
 
 .month {
-  padding-bottom: 5px;
-  margin-bottom: 10px;
+  padding: 3px;
+  margin-bottom: 2px;
   border-style: solid;
   border-width: 1px;
   color: black;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.post-index {
+
 }
 
 .post-header {
   display: flex;
-  align-items: center;
+  /* align-items: center;
+  justify-content: space-between; */
+
 }
 
 .post-title {
   flex: 1;
+  padding-left: 3px;
 }
 
 .post-author {
-  flex: 1;
+  /* flex: 1; */
+  /* margin-left: auto; */
 }
 
 .image-wrap {
