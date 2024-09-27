@@ -1,0 +1,72 @@
+
+<script>
+  const url = "https://pruebasalle-a1814-default-rtdb.europe-west1.firebasedatabase.app/";
+  const project = "johan-bjorkroth/"
+  const database = "alumnes"
+
+  console.log(url + project + database + ".json");  
+
+  //FETCH 
+  async function fetchStudents() {
+    res = await fetch(url + project + database + ".json");
+    res = await res.json();
+    console.log(res);
+    
+    let studentId
+    for (const id in res) {
+      console.log(id)
+    }
+  }
+  fetchStudents()
+
+  async function fetchStudent(name) {
+    res = await fetch(url + project + database + ".json");
+    res = await res.json();
+    for (const id in res) {
+      if (res[id].nom == name){
+        console.log(res[id].nom);
+        console.log(id);
+      }
+    }
+  }
+
+
+  //POST
+  async function postStudent(name, age, hair) {
+    res = await fetch(url + project + database + ".json", {
+      method: "POST",
+      body: JSON.stringify({
+        nom: name,
+        edat: age,
+        pelo: hair
+      })
+    })
+    res = await res.json()
+    console.log("New student added to database :", res);
+    
+  }
+
+  // DELETE 
+  async function deleteStudent(id) {
+    res = await fetch(url + project + database + "/" + id + "/.json", {
+      method: "DELETE"
+    })
+    res = await res.json()
+    console.log("Student delted");
+  }
+
+// PUT (UPDATE)
+async function updateStudent(id, newName, newAge, newHair) {
+  res = await fetch(url + project + database + "/" + id + "/.json", {
+    method: "PUT",
+    body: JSON.stringify({
+      nom: newName,
+      edat: newAge,
+      pelo: newHair
+    })
+  })
+  res = await res.json()
+  console.log("Updated Student ", id + " " + res);
+}
+
+</script>

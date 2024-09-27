@@ -1,0 +1,72 @@
+<script>
+  const url = "https://pruebasalle-a1814-default-rtdb.europe-west1.firebasedatabase.app/"
+  const project = "johan-bjorkroth/"
+  //const project = "prueba/"
+  const database = "alumnes.json"
+
+fetchStudents();
+
+//FETCHING FROM DATABASE: "ASYNC + AWAIT"-SYNTAX 
+async function fetchStudents() {
+  res = await fetch(url + project + database);
+  res = await res.json();
+  console.log(res);
+
+  let idStudent
+
+  // Print ID of one student
+  for (const id in res) {
+    if (res[id].nom == "Johan") {
+      idStudent = id;
+      break;
+    }
+  }
+
+  console.log("ID: " , idStudent);
+  
+
+}
+
+async function fetchDB() {
+  res = await fetch(url+".json");
+  res = await res.json();
+  console.log(res);
+}
+
+fetchDB()
+
+// POST TO DATABASE FUNCTION
+function postAlumne(name, age, hair) {
+    
+    fetch(url + project + database, {
+      method: 'POST',
+      body: JSON.stringify({
+          nom: name,
+          edat: age,
+          pelo: hair
+      })
+  })
+
+}
+
+//postAlumne("Johan", 34, "blonde")
+
+  //FETCHING FROM DATABASE: "FETCH + THEN"-SYNTAX
+  // fetch(url + project + database)
+  // .then(res => res.json())
+  // .then(res => {
+  //     console.log(res)
+      
+  //     let idAlumne
+
+  //     for (const id in res) {
+  //         if (res[id].nom == "Carlos") {
+  //             idAlumne = id;
+  //             break;
+  //         }
+  //     }
+
+  //     console.log(idAlumne);
+  // })
+
+</script>
