@@ -13,6 +13,7 @@ async function getPokemon(num) {
   //   console.log(res.types[0].type.name)
   // });
 
+  // FETCH + SHOW 
   for (i = 0; i < num; i++) {
     const aPokemon = await fetchPokemon()
     console.log(aPokemon);
@@ -29,10 +30,10 @@ async function fetchPokemon() {
   try {
     apiCallPromise = await fetch("https://pokeapi.co/api/v2/pokemon/" + num)
     const apiCallObject = await apiCallPromise.json();
-    console.log(apiCallObject);
-    console.log(apiCallObject.types)
-    console.log(apiCallObject.name);
-    console.log(apiCallObject.cries.latest);
+    // console.log(apiCallObject);
+    // console.log(apiCallObject.types)
+    // console.log(apiCallObject.name);
+    // console.log(apiCallObject.cries.latest);
     
     
     let pokemon = {
@@ -85,7 +86,7 @@ function showPokemon({ pName, types, cry, img, text }) {
   // pName = pName.charAt(0).toUpperCase() + pName.slice(1);
   background = colors.electric;
   text = "placeholder text"
-  console.log(types);
+  console.log("types: ",types);
   
 
   cont.innerHTML += `
